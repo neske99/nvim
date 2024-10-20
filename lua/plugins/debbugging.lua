@@ -7,7 +7,7 @@ return {
 		"jay-babu/mason-nvim-dap.nvim",
 		"mfussenegger/nvim-dap-python",
 		"mfussenegger/nvim-jdtls",
-        "mfussenegger/nvim-dap-lldb"
+        "julianolf/nvim-dap-lldb"
 	},
 	config = function()
 		local dap = require("dap")
