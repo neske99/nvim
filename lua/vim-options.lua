@@ -17,5 +17,6 @@ vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.keymap.set("i", "<C-H>", "<C-w>", { noremap =true, silent = true })
 vim.keymap.set("i", "<C-Del>", "<C-o>dw", { noremap =true, silent = true })
 vim.wo.number = true
+vim.keymap.set('i', '<C-BS>', '<C-w>', { noremap = true, silent = true })
 
 
